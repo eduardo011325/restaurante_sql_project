@@ -1,43 +1,54 @@
-🍽️ Projeto SQL — Banco de Dados do Restaurante
+# 🍽️ Projeto SQL — Banco de Dados do Restaurante  
 
-Autor: Eduardo Santos
-Data: Novembro de 2025
-Tecnologia: MySQL
-Categoria: Modelagem, Manipulação e Consultas SQL
+**Autor:** Eduardo Santos  
+**Data:** Novembro de 2025  
+**Tecnologia:** MySQL  
+**Categoria:** Modelagem, Manipulação e Consultas SQL  
 
-🧠 Descrição do Projeto
+---
 
-Este projeto apresenta o desenvolvimento completo de um banco de dados relacional para um sistema de restaurante, criado inteiramente em MySQL.
+## 📖 Descrição do Projeto  
 
-O objetivo é demonstrar o domínio prático de SQL — desde a criação e modelagem das tabelas, até consultas avançadas e funções personalizadas, passando por manipulação e análise de dados.
+Este projeto apresenta o desenvolvimento completo de um banco de dados relacional para um sistema de restaurante, criado inteiramente em **MySQL**.  
 
-🧩 Etapas do Projeto
-Etapa	Arquivo	Descrição
-1. Modelagem e Estrutura	01_criacao_tabelas.sql	Criação das tabelas principais (clientes, funcionários, produtos, pedidos e info_produtos), com definição de chaves primárias e estrangeiras.
-2. Manipulação de Dados	02_manipulacao.sql	Inserção, atualização e exclusão de registros (CRUD completo).
-3. Consultas Intermediárias	03_consultas_restaurante.sql	Consultas com WHERE, ORDER BY, LIMIT, LIKE, IN, BETWEEN, etc.
-4. Consultas entre múltiplas tabelas	04_multiplas_tabelas.sql	Uso de JOINs (INNER, LEFT, RIGHT) e agrupamentos.
-5. Consultas Avançadas e Funções	05_consultas_avancadas.sql	Criação de Views e Functions personalizadas (ex: MediaPedido, BuscaIngredientesProdutos).
-⚙️ Principais Recursos e Conceitos Utilizados
+O objetivo é demonstrar o domínio prático de SQL — desde a criação e modelagem das tabelas até consultas avançadas e funções personalizadas, passando por manipulação e análise de dados.  
 
-Modelagem relacional completa
+---
 
-Chaves primárias e estrangeiras
+## 🧩 Etapas do Projeto  
 
-Funções de agregação: SUM(), AVG(), COUNT()
+| Etapa | Arquivo | Descrição |
+|-------|----------|-----------|
+| **1. Modelagem e Estrutura** | [01_criacao_tabelas.sql](./01_criacao_tabelas.sql) | Criação das tabelas principais (clientes, funcionários, produtos, pedidos e info_produtos), com definição de chaves primárias e estrangeiras. |
+| **2. Manipulação de Dados** | [02_manipulacao.sql](./02_manipulacao.sql) | Inserção, atualização e exclusão de registros (CRUD completo). |
+| **3. Consultas Intermediárias** | [03_consultas_restaurante.sql](./03_consultas_restaurante.sql) | Consultas com WHERE, ORDER BY, LIMIT, LIKE, IN, BETWEEN, etc. |
+| **4. Consultas entre múltiplas tabelas** | [04_multiplas_tabelas.sql](./04_multiplas_tabelas.sql) | Uso de JOINS (INNER, LEFT, RIGHT) e agrupamentos. |
+| **5. Consultas Avançadas e Funções** | [05_consultas_avancadas.sql](./05_consultas_avancadas.sql) | Criação de Views e Functions personalizadas (ex: `MediaPedido`, `BuscaIngredientesProdutos`). |
 
-Joins entre múltiplas tabelas
+---
 
-Views e funções personalizadas (UDFs)
+## ⚙️ Principais Recursos e Conceitos Utilizados  
 
-Uso de CASE, COALESCE, GROUP_CONCAT
+- Modelagem relacional completa  
+- Chaves primárias e estrangeiras  
+- Funções de agregação: `SUM()`, `AVG()`, `COUNT()`  
+- JOINs entre múltiplas tabelas  
+- Views e Funções personalizadas (UDFs)  
+- Uso de `CASE`, `COALESCE`, `GROUP_CONCAT`  
+- Scripts modulares e comentados  
 
-Scripts modulares e comentados
+---
 
-🧰 Tecnologias Utilizadas
+## 🧠 Tecnologias Utilizadas  
 
-Banco de Dados: MySQL
+- **Banco de Dados:** MySQL  
+- **Ferramenta:** MySQL Workbench  
+- **Linguagem:** SQL  
 
-Ferramenta: MySQL Workbench
+---
 
-Linguagem: SQL
+## 🚀 Como Executar o Projeto  
+
+1. Faça o clone do repositório:  
+   ```bash
+   git clone https://github.com/eduardo011325/restaurante_sql_project.git
