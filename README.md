@@ -19,11 +19,11 @@ O objetivo é demonstrar o domínio prático de SQL — desde a criação e mode
 
 | Etapa | Arquivo | Descrição |
 |-------|----------|-----------|
-| **1. Modelagem e Estrutura** | [01_criação.tabelas](./01_criação.tabelas) | Criação das tabelas principais (clientes, funcionários, produtos, pedidos e info_produtos), com definição de chaves primárias e estrangeiras. |
-| **2. Inserções e Manipulação de Dados** | [02_Inserções_dados_restaurante](./02_Inserções_dados_restaurante) | Inserção, atualização e exclusão de registros (CRUD completo). |
-| **3. Consultas Intermediárias** | [03_consultas_restaurante](./03_consultas_restaurante) | Consultas com WHERE, ORDER BY, LIMIT, LIKE, IN, BETWEEN, etc. |
-| **4. Consultas entre múltiplas tabelas** | [04_multiplas_tabelas](./04_multiplas_tabelas) | Uso de JOINS (INNER, LEFT, RIGHT) e agrupamentos. |
-| **5. Consultas Avançadas e Funções** | [05_consultas_avançadas](./05_consultas_avançadas) | Criação de Views e Functions personalizadas (ex: `MediaPedido`, `BuscaIngredientesProdutos`). |
+| **1. Modelagem e Estrutura** | [01_criacao_tabelas.sql](./01_criacao_tabelas.sql) | Criação das tabelas principais (clientes, funcionários, produtos, pedidos e info_produtos), com definição de chaves primárias e estrangeiras. |
+| **2. Inserções e Manipulação de Dados** | [02_insercoes_dados_restaurante.sql](./02_insercoes_dados_restaurante.sql) | Inserção, atualização e exclusão de registros (CRUD completo). |
+| **3. Consultas Intermediárias** | [03_consultas_restaurante.sql](./03_consultas_restaurante.sql) | Consultas com WHERE, ORDER BY, LIMIT, LIKE, IN, BETWEEN, etc. |
+| **4. Consultas entre múltiplas tabelas** | [04_multiplas_tabelas.sql](./04_multiplas_tabelas.sql) | Uso de JOINS (INNER, LEFT, RIGHT) e agrupamentos. |
+| **5. Consultas Avançadas e Funções** | [05_consultas_avancadas.sql](./05_consultas_avancadas.sql) | Criação de Views e Functions personalizadas (ex: `MediaPedido`, `BuscaIngredientesProdutos`). |
 
 ---
 
